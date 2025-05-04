@@ -41,22 +41,18 @@ Design of a simulation of a Turing Machine in Python that adds 1 to a binary num
 ### Task 8: Computational Complexity
 Implementation of bubble sort with instrumentation to count comparisons, tested against all permutations of a 5-element list to demonstrate computational complexity principles.
 
-## Repository Structure
-The main components of relevance for this repository are: 
-- tasks.ipynb: Jupyter notebook containing all task implementations and explanations.
-- words_alpha.txt: Dictionary file used for the Proof of Work task.
-
 ## How to Run This Repository
 
 ### Prerequisites
 - Visual Studio Code or GitHub Codespaces
 - Python and Jupyter Notebook (for running the tasks notebook)
+- Required Python packages (install with `pip install -r requirements.txt` if necessary)
 
 ### Step-by-Step Instructions
 
 1. **Clone the Repository:**
     ```
-    git clone https://github.com/your-username/comp_theory.git
+    git clone https://github.com/ShanewalshGit/comp_theory.git
     ```
 
 2. **Open in Visual Studio Code:**
@@ -64,14 +60,20 @@ The main components of relevance for this repository are:
     code .
     ```
 
-3. **Open the Jupyter Notebook:**
+3. **Install Required Packages:**
+    ```
+    pip install -r requirements.txt
+    ```
+
+4. **Open the Jupyter Notebook:**
     - In Visual Studio Code, open the tasks.ipynb file.
 
-4. **Run the Notebook:**
+5. **Run the Notebook:**
     - Ensure you have the Jupyter extension installed in Visual Studio Code.
     - Click on the "Run All" button to execute all cells in the notebook.
+    - Note: On first run, the notebook will automatically download the dictionary file needed for Task 6.
 
-5. **View Results:**
+6. **View Results:**
     - The notebook will display the results of the various computational theory tasks.
 
 ### Running in Github Codespaces
@@ -81,8 +83,8 @@ The main components of relevance for this repository are:
     - Click on the "Code" button and select "Open with Codespaces".
 
 2. **Follow The Steps Above:**
-    - Follow the same steps as described for Visual Studio Code to run the ELIZA chatbot and the trigrams notebook.
-
+    - Follow the same steps 3-6 as described above to run the notebook.
+    
 ## Technologies Used
 
 - Python
